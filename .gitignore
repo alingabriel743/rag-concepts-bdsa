@@ -1,1 +1,24 @@
-venv
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Byte-compiled files
+*.pyo
+
+# ChromaDB local storage
+chroma_db/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
